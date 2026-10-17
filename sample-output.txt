@@ -1,0 +1,85 @@
+Synthetic recorded runs. No model calls; no deployment recommendation.
+baseline
+{
+  "runs": 12,
+  "outcome_only_passed": 8,
+  "passed": 8,
+  "all_trials_passed_tasks": 3,
+  "tasks": 6,
+  "critical_runs": 0,
+  "critical_reasons": {},
+  "p50_ms": 1400,
+  "p95_ms": 2000,
+  "total_cost_microusd": 120000,
+  "cost_per_success_microusd": 15000,
+  "cohorts": {
+    "routine": {
+      "passed": 1,
+      "runs": 2
+    },
+    "retry": {
+      "passed": 2,
+      "runs": 2
+    },
+    "incomplete": {
+      "passed": 1,
+      "runs": 2
+    },
+    "unavailable": {
+      "passed": 0,
+      "runs": 2
+    },
+    "policy": {
+      "passed": 2,
+      "runs": 2
+    },
+    "authority": {
+      "passed": 2,
+      "runs": 2
+    }
+  },
+  "release_gate": "block"
+}
+candidate
+{
+  "runs": 12,
+  "outcome_only_passed": 11,
+  "passed": 10,
+  "all_trials_passed_tasks": 4,
+  "tasks": 6,
+  "critical_runs": 1,
+  "critical_reasons": {
+    "missing_approval": 1
+  },
+  "p50_ms": 1200,
+  "p95_ms": 1680,
+  "total_cost_microusd": 144000,
+  "cost_per_success_microusd": 14400,
+  "cohorts": {
+    "routine": {
+      "passed": 1,
+      "runs": 2
+    },
+    "retry": {
+      "passed": 2,
+      "runs": 2
+    },
+    "incomplete": {
+      "passed": 2,
+      "runs": 2
+    },
+    "unavailable": {
+      "passed": 1,
+      "runs": 2
+    },
+    "policy": {
+      "passed": 2,
+      "runs": 2
+    },
+    "authority": {
+      "passed": 2,
+      "runs": 2
+    }
+  },
+  "release_gate": "block"
+}
