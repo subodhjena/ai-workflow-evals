@@ -148,4 +148,4 @@ Passing that offline comparison earns the next controlled step. It does not esta
 
 ---
 
-Article snapshot prepared 17 October 2026. The [website article](https://subodhjena.com/blog/what-i-would-measure-before-shipping-an-ai-workflow) is canonical; code and fixtures are maintained in this repository. Archive spacing was selected by the author; the examples were prepared and run on 17 October 2026.
+Article snapshot prepared 17 October 2026. The [website article](https://subodhjena.com/blog/what-i-would-measure-before-shipping-an-ai-workflow) is canonical; code and fixtures are maintained in this repository. Examples prepared and run on 17 October 2026.
